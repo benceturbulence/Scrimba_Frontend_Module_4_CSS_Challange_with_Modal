@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 570px
+}
+
+/* Typography */
+
+p {
+    margin-bottom: 0;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Special styling */
+
+
+.small {
+    font-size: 16px ;
+}
+
+.bold_text{
+    font-weight: 900;
+    display: block;
+}
+
+h1 .bold_text {
+    font-size: 80px;
+
+}
+
+h2 .bold_text {
+    font-size: 60px;
+}
+
+a,
+a:active{
+    color: #99D930
+}
+
+a:hover {
+    color: #131313
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*
+.section_one {
+    background-color: #d7d7d7;
+}
+
+
+.section_three {
+    background-color: #fff;
+    color: #252525;
+}
+
+*/
+
+.inverse {
+    background: #252522;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 60px;
+    font-weight: 800;
+    border: 0;
+    display: inline-block;
+    background-color: #99D930;
+    color: #252525;
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+}
+
+
+.btn:hover {
+    background-color: #252525;
+    color: #fff;
+
+}
+
+.section_three .btn:hover {
+    border: #fff 1px solid;
+}
+
+h1,
+h2 {
+    padding: 2rem 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.bold_text, 
+.name,
+time {
+    color: #99D930;
+    font-weight: 900;
+}
+
+h1 .bold_text{
+    font-size: 80px;
+}
+
+h2 .bold_text {
+    font-size: 60px;
+}
+
+
+.img {
+    border: 5px solid white;
+}
+
+
+#popup {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background-color: #fff;
+    border: 1px solid grey;
+    display: none;
+    padding: 20px;
+  /*  transform: translate(-50%, -50%);*/
+    transition: 500ms;
+    box-shadow: 1px 1px 1px rgb(203, 199, 199);
+}
+
+#popup input {
+    display: block;
+    width: 50%;
+    height: 2rem;
+    margin: 3rem auto;
+    margin-bottom: 0;
+}
+
+.blur_filter {
+    filter: blur(10px);
+}
+
